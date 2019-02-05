@@ -11,6 +11,14 @@
     width: 100%;
     transform-style: preserve-3d;
   }
+  .cube:hover{
+    animation: spin 1.5s;
+  }
+
+  @keyframes spin {
+	from { transform: rotateX(0); }
+	to { transform: rotateX(-360deg); }
+}
 
   .cube-side{
     position: absolute;
@@ -22,7 +30,6 @@
     text-transform: uppercase;
     font-size: 25px;
     font-family: Verdana, sans-serif;
-    /* transform: translateZ(100px); */
   }
 
 
@@ -34,6 +41,7 @@
   .back{
       background: rgba(72, 255, 56, 0.7);
       transform: rotateY(180deg) translateZ(100px);
+      transform: translateZ(-100px) rotateX(180deg);
   }
 
   .top{
