@@ -15,4 +15,34 @@
     position: absolute;
     height: 200px;
     width: 200px;
+    color: #fff;
+    line-height: 200px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+  }
+
+  .front{
+      background: rgba(41, 236, 243, 0.7);
+  }
+
+  .back{
+      background: rgba(72, 255, 56, 0.7);
+  }
+
+  .top{
+      background: rgba(209, 255, 41, 0.7);
+  }
+
+  .bottom{
+    background: rgba(255, 51, 24, 0.7);
+  }
+
+  .right{
+    background: rgba(123, 41, 255, 0.7);
+  }
+  
+  .left{
+    background: rgba(255, 156, 8, 0.7);
   }
